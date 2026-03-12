@@ -31,7 +31,7 @@ const Header = () => {
                      Devang Patel Institute of Advance Technology and Research
                   </h1>
                   <p className="text-xs text-blue-200 mt-0.5">
-                     DEPSTAR, CHARUSAT
+                     Charotar University of Science and Technology
                   </p>
                </div>
             </div>
