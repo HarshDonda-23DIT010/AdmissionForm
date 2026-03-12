@@ -1,6 +1,6 @@
 import React from 'react';
 import charusatLogo from '../../assets/charusat.png';
-import depstarLogo from '../../assets/depstarlogo.png';
+import depstarLogo from '../../assets/depstarlogo.jpeg';
 
 const Header = () => {
    return (
