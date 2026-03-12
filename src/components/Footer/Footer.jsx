@@ -13,7 +13,7 @@ const Footer = () => {
           CHARUSAT, Changa, Gujarat
         </p>
         <p className="text-xs text-blue-300 mt-2">
-          Developed & Designed by Harsh Donda (23DIT010) | Mentor: Mr. Akash Patel
+          Developed & Designed by Harsh Donda (23DIT010) | Mentor: Mr. Akash Patel | Dr. Premal Patel
         </p>
       </div>
     </footer>
