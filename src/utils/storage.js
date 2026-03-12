@@ -1,45 +1,62 @@
-// Storage utility for managing inquiry data using localStorage
-// This simulates a JSON file database for Vercel deployment
+// Storage utility for managing inquiry data using Firebase Firestore
+import { db } from './firebase';
+import { 
+  collection, 
+  addDoc, 
+  getDocs, 
+  deleteDoc, 
+  doc, 
+  query, 
+  orderBy,
+  Timestamp 
+} from 'firebase/firestore';
 
-const STORAGE_KEY = 'depstar_inquiries';
+const COLLECTION_NAME = 'inquiries';
 
-// Get all inquiries from storage
-export const getAllInquiries = () => {
+// Get all inquiries from Firestore
+export const getAllInquiries = async () => {
   try {
-    const data = localStorage.getItem(STORAGE_KEY);
-    return data ? JSON.parse(data) : [];
+    const q = query(collection(db, COLLECTION_NAME), orderBy('dateTime', 'desc'));
+    const snapshot = await getDocs(q);
+    return snapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data(),
+      dateTime: doc.data().dateTime?.toDate?.() 
+        ? doc.data().dateTime.toDate().toISOString() 
+        : doc.data().dateTime
+    }));
   } catch (error) {
-    console.error('Error reading from storage:', error);
+    console.error('Error reading from Firestore:', error);
     return [];
   }
 };
 
 // Save a new inquiry
-export const saveInquiry = (inquiry) => {
+export const saveInquiry = async (inquiry) => {
   try {
-    const inquiries = getAllInquiries();
     const newInquiry = {
       ...inquiry,
-      id: Date.now(),
-      dateTime: new Date().toISOString(),
+      dateTime: Timestamp.now(),
+      createdAt: new Date().toISOString()
     };
-    inquiries.push(newInquiry);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(inquiries));
-    return newInquiry;
+    const docRef = await addDoc(collection(db, COLLECTION_NAME), newInquiry);
+    console.log('Inquiry saved with ID:', docRef.id);
+    return { id: docRef.id, ...newInquiry };
   } catch (error) {
-    console.error('Error saving to storage:', error);
+    console.error('Error saving to Firestore:', error);
     throw error;
   }
 };
 
 // Get total count of inquiries
-export const getTotalCount = () => {
-  return getAllInquiries().length;
+export const getTotalCount = async () => {
+  const inquiries = await getAllInquiries();
+  return inquiries.length;
 };
 
 // Get inquiries for the last 7 days with daily counts
-export const getWeeklyStats = () => {
-  const inquiries = getAllInquiries();
+export const getWeeklyStats = async () => {
+  const inquiries = await getAllInquiries();
   const today = new Date();
   today.setHours(23, 59, 59, 999);
   
@@ -71,8 +88,8 @@ export const getWeeklyStats = () => {
 };
 
 // Get inquiries within a date range
-export const getInquiriesByDateRange = (fromDate, toDate) => {
-  const inquiries = getAllInquiries();
+export const getInquiriesByDateRange = async (fromDate, toDate) => {
+  const inquiries = await getAllInquiries();
   
   const from = new Date(fromDate);
   from.setHours(0, 0, 0, 0);
@@ -87,11 +104,9 @@ export const getInquiriesByDateRange = (fromDate, toDate) => {
 };
 
 // Delete an inquiry by ID
-export const deleteInquiry = (id) => {
+export const deleteInquiry = async (id) => {
   try {
-    const inquiries = getAllInquiries();
-    const filtered = inquiries.filter(inq => inq.id !== id);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(filtered));
+    await deleteDoc(doc(db, COLLECTION_NAME, id));
     return true;
   } catch (error) {
     console.error('Error deleting inquiry:', error);

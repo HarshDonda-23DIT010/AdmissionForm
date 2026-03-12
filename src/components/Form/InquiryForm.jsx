@@ -148,7 +148,10 @@ const InquiryForm = () => {
         )
       };
       
-      await saveInquiry(dataToSave);
+      console.log('Saving inquiry...', dataToSave);
+      const result = await saveInquiry(dataToSave);
+      console.log('Inquiry saved successfully:', result);
+      
       setSubmitStatus({ type: 'success', message: 'Inquiry submitted successfully!' });
       
       setFormData({
@@ -170,33 +173,65 @@ const InquiryForm = () => {
         charusatFormFilled: '',
         remarks: ''
       });
-      
-      setTimeout(() => setSubmitStatus(null), 5000);
     } catch (error) {
+      console.error('Submit error:', error);
       setSubmitStatus({ type: 'error', message: 'Failed to submit. Please try again.' });
     } finally {
       setIsSubmitting(false);
     }
   };
 
+  const closeDialog = () => {
+    setSubmitStatus(null);
+  };
+
   return (
     <div className="bg-white rounded-xl shadow-lg p-4 md:p-6">
+      {/* Success/Error Dialog Modal */}
+      {submitStatus && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-xl shadow-2xl max-w-sm w-full p-6 text-center animate-fadeIn">
+            {submitStatus.type === 'success' ? (
+              <>
+                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-green-700 mb-2">Success!</h3>
+                <p className="text-gray-600 mb-4">{submitStatus.message}</p>
+              </>
+            ) : (
+              <>
+                <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-10 h-10 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-red-700 mb-2">Error!</h3>
+                <p className="text-gray-600 mb-4">{submitStatus.message}</p>
+              </>
+            )}
+            <button
+              onClick={closeDialog}
+              className={`w-full py-2.5 rounded-lg font-medium text-white transition-colors ${
+                submitStatus.type === 'success' 
+                  ? 'bg-green-600 hover:bg-green-700' 
+                  : 'bg-red-600 hover:bg-red-700'
+              }`}
+            >
+              OK
+            </button>
+          </div>
+        </div>
+      )}
+
       <h2 className="text-xl font-bold text-blue-700 text-center mb-1">
         Student Inquiry Form
       </h2>
       <p className="text-gray-500 text-sm text-center mb-4">
         Fill your details for admission inquiry
       </p>
-
-      {submitStatus && (
-        <div className={`mb-4 p-3 rounded-lg text-sm ${
-          submitStatus.type === 'success' 
-            ? 'bg-green-100 text-green-700 border border-green-300' 
-            : 'bg-red-100 text-red-700 border border-red-300'
-        }`}>
-          {submitStatus.message}
-        </div>
-      )}
 
       <form onSubmit={handleSubmit} className="space-y-4">
         {/* Student Name */}

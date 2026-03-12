@@ -8,6 +8,7 @@ const Dashboard = () => {
   const [fromDate, setFromDate] = useState('');
   const [toDate, setToDate] = useState('');
   const [isExporting, setIsExporting] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
   const [refreshKey, setRefreshKey] = useState(0);
 
   useEffect(() => {
@@ -21,16 +22,25 @@ const Dashboard = () => {
     setFromDate(thirtyDaysAgo.toISOString().split('T')[0]);
   }, [refreshKey]);
 
-  const loadStats = () => {
-    setTotalCount(getTotalCount());
-    setWeeklyStats(getWeeklyStats());
+  const loadStats = async () => {
+    setIsLoading(true);
+    try {
+      const count = await getTotalCount();
+      const stats = await getWeeklyStats();
+      setTotalCount(count);
+      setWeeklyStats(stats);
+    } catch (error) {
+      console.error('Error loading stats:', error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleRefresh = () => {
     setRefreshKey(prev => prev + 1);
   };
 
-  const handleExport = () => {
+  const handleExport = async () => {
     if (!fromDate || !toDate) {
       alert('Please select both From and To dates');
       return;
@@ -44,7 +54,7 @@ const Dashboard = () => {
     setIsExporting(true);
     
     try {
-      const data = getInquiriesByDateRange(fromDate, toDate);
+      const data = await getInquiriesByDateRange(fromDate, toDate);
       
       if (data.length === 0) {
         alert('No inquiries found for the selected date range');
@@ -61,11 +71,11 @@ const Dashboard = () => {
     }
   };
 
-  const handleExportAll = () => {
+  const handleExportAll = async () => {
     setIsExporting(true);
     
     try {
-      const data = getAllInquiries();
+      const data = await getAllInquiries();
       
       if (data.length === 0) {
         alert('No inquiries to export');
@@ -93,9 +103,10 @@ const Dashboard = () => {
           <h2 className="text-xl font-bold">Dashboard</h2>
           <button
             onClick={handleRefresh}
-            className="bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg text-sm transition-colors"
+            disabled={isLoading}
+            className="bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg text-sm transition-colors disabled:opacity-50"
           >
-            Refresh
+            {isLoading ? 'Loading...' : 'Refresh'}
           </button>
         </div>
       </div>
