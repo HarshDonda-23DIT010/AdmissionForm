@@ -27,7 +27,7 @@ const InquiryForm = () => {
     'Dr. Amit Nayak',
     'Dr. Chirag Patel',
     'Dr. Dweepna Garg',
-    'Prof. Anil Kalyani',
+    'Mr. Anil Kalyani',
     'Prof. Rajesh Patel',
     'Dr. Parth Goel',
     'Prof. Dipak Ramoliya',
