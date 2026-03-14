@@ -12,7 +12,7 @@ function App() {
         <Header />
         
         <main className="flex-1 py-4 px-3 md:py-8 md:px-4">
-          <div className="max-w-lg md:max-w-2xl mx-auto">
+          <div className="max-w-lg md:max-w-4xl mx-auto">
             <Routes>
               <Route path="/" element={<InquiryForm />} />
               <Route path="/dashboard" element={<Dashboard />} />

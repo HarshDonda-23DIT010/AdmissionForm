@@ -4,6 +4,7 @@ import { saveInquiry } from '../../utils/storage';
 const InquiryForm = () => {
   const [formData, setFormData] = useState({
     studentName: '',
+    counsellorName: '',
     studentMobile: '',
     email: '',
     parentMobile: '',
@@ -22,12 +23,54 @@ const InquiryForm = () => {
     remarks: ''
   });
 
+  const counsellorNames = [
+    'Dr. Amit Nayak',
+    'Dr. Chirag Patel',
+    'Dr. Dweepna Garg',
+    'Prof. Anil Kalyani',
+    'Prof. Rajesh Patel',
+    'Dr. Parth Goel',
+    'Prof. Dipak Ramoliya',
+    'Dr. Khushi Patel',
+    'Prof. Radhika Patel',
+    'Prof. Gaurang Patel',
+    'Prof. Bhavika Patel',
+    'Prof. Binal Kaka',
+    'Prof. Chintal Raval',
+    'Prof. Akash Patel',
+    'Prof. Sachin Patel',
+    'Prof. Shital Sharma',
+    'Prof. Ritika Jani',
+    'Prof. Urvashi Chaudhari',
+    'Prof. Naina Parmar',
+    'Dr. Mohini Darji',
+    'Prof. Kashyap Patel',
+    'Prof. Sachi Joshi',
+    'Prof. Ashish Katira',
+    'Prof. Priyanka Padhiyar',
+    'Prof. Arpit Bhatt',
+    'Prof. Jay Patel',
+    'Prof. Neeta Chudasama',
+    'Prof. Pooja Singh Chaudhary',
+    'Prof. Dipika Damodar',
+    'Prof. Hitesh Makwana',
+    'Dr. Premal Patel',
+    'Prof. Hardik Parmar',
+    'Prof. Pravin Jadav',
+    'Prof. Sandeep Mehta',
+    'Prof. Sudheesh Patel',
+    'Prof. Nirav Narayan',
+    'Prof. Vaibhav Matalia',
+    'Prof. Siddharth Shah',
+    'Prof. Prashant Jadav'
+  ];
+
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
 
   const districts = [
-    'Ahmedabad', 'Amreli', 'Anand', 'Aravalli', 'Banaskantha', 'Bharuch', 
+    'Ahmedabad', 'Amreli', 'Anand', 'Aravalli', 'Banaskantha', 'Bharuch',
     'Bhavnagar', 'Botad', 'Chhota Udaipur', 'Dahod', 'Dang', 'Devbhoomi Dwarka',
     'Gandhinagar', 'Gir Somnath', 'Jamnagar', 'Junagadh', 'Kheda', 'Kutch',
     'Mahisagar', 'Mehsana', 'Morbi', 'Narmada', 'Navsari', 'Panchmahal',
@@ -40,6 +83,10 @@ const InquiryForm = () => {
 
     if (!formData.studentName.trim()) {
       newErrors.studentName = 'Required';
+    }
+
+    if (!formData.counsellorName) {
+      newErrors.counsellorName = 'Required';
     }
 
     if (!formData.studentMobile.trim()) {
@@ -127,7 +174,7 @@ const InquiryForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       setSubmitStatus({ type: 'error', message: 'Please fill all required fields' });
       return;
@@ -143,19 +190,20 @@ const InquiryForm = () => {
         district: formData.district === 'Other' ? formData.districtOther : formData.district,
         state: formData.district === 'Other' ? formData.stateOther : 'Gujarat',
         board: formData.board === 'Other' ? formData.boardOther : formData.board,
-        branchPreference: formData.branchPreference.map(b => 
+        branchPreference: formData.branchPreference.map(b =>
           b === 'Other' ? formData.branchOther : b
         )
       };
-      
+
       console.log('Saving inquiry...', dataToSave);
       const result = await saveInquiry(dataToSave);
       console.log('Inquiry saved successfully:', result);
-      
+
       setSubmitStatus({ type: 'success', message: 'Inquiry submitted successfully!' });
-      
+
       setFormData({
         studentName: '',
+        counsellorName: '',
         studentMobile: '',
         email: '',
         parentMobile: '',
@@ -214,11 +262,10 @@ const InquiryForm = () => {
             )}
             <button
               onClick={closeDialog}
-              className={`w-full py-2.5 rounded-lg font-medium text-white transition-colors ${
-                submitStatus.type === 'success' 
-                  ? 'bg-green-600 hover:bg-green-700' 
-                  : 'bg-red-600 hover:bg-red-700'
-              }`}
+              className={`w-full py-2.5 rounded-lg font-medium text-white transition-colors ${submitStatus.type === 'success'
+                ? 'bg-green-600 hover:bg-green-700'
+                : 'bg-red-600 hover:bg-red-700'
+                }`}
             >
               OK
             </button>
@@ -248,6 +295,25 @@ const InquiryForm = () => {
             className={`w-full px-3 py-2.5 border rounded-lg text-base ${errors.studentName ? 'border-red-500' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
           />
           {errors.studentName && <p className="text-red-500 text-xs mt-1">{errors.studentName}</p>}
+        </div>
+
+        {/* Counsellor Name */}
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-1">
+            Name of Faculty Staff <span className="text-red-500">*</span>
+          </label>
+          <select
+            name="counsellorName"
+            value={formData.counsellorName}
+            onChange={handleInputChange}
+            className={`w-full px-3 py-2.5 border rounded-lg text-base ${errors.counsellorName ? 'border-red-500' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white`}
+          >
+            <option value="">Select Faculty Staff</option>
+            {counsellorNames.map(name => (
+              <option key={name} value={name}>{name}</option>
+            ))}
+          </select>
+          {errors.counsellorName && <p className="text-red-500 text-xs mt-1">{errors.counsellorName}</p>}
         </div>
 
         {/* Student Mobile */}
@@ -333,7 +399,7 @@ const InquiryForm = () => {
             ))}
           </select>
           {errors.district && <p className="text-red-500 text-xs mt-1">{errors.district}</p>}
-          
+
           {formData.district === 'Other' && (
             <div className="mt-3 space-y-3">
               <div>
@@ -350,7 +416,7 @@ const InquiryForm = () => {
                 />
                 {errors.districtOther && <p className="text-red-500 text-xs mt-1">{errors.districtOther}</p>}
               </div>
-              
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   State <span className="text-red-500">*</span>
@@ -390,7 +456,7 @@ const InquiryForm = () => {
             ))}
           </div>
           {errors.board && <p className="text-red-500 text-xs mt-1">{errors.board}</p>}
-          
+
           {formData.board === 'Other' && (
             <input
               type="text"
@@ -459,7 +525,7 @@ const InquiryForm = () => {
             ))}
           </div>
           {errors.branchPreference && <p className="text-red-500 text-xs mt-1">{errors.branchPreference}</p>}
-          
+
           {formData.branchPreference.includes('Other') && (
             <input
               type="text"

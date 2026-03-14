@@ -6,6 +6,7 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
   const excelData = data.map((inquiry, index) => ({
     'Sr. No.': index + 1,
     'Student Name': inquiry.studentName || '',
+    'Faculty Staff Name': inquiry.counsellorName || '',
     'Student Mobile': inquiry.studentMobile || '',
     'Email Address': inquiry.email || '',
     'Parent Mobile': inquiry.parentMobile || '',
@@ -43,6 +44,7 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
   const columnWidths = [
     { wch: 8 },   // Sr. No.
     { wch: 25 },  // Student Name
+    { wch: 25 },  // Counsellor Name
     { wch: 15 },  // Student Mobile
     { wch: 30 },  // Email
     { wch: 15 },  // Parent Mobile
