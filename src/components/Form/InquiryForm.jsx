@@ -512,7 +512,7 @@ const InquiryForm = () => {
             Branch Preference <span className="text-red-500">*</span>
           </label>
           <div className="flex flex-wrap gap-3">
-            {['CE', 'CSE', 'IT', 'Other'].map(branch => (
+            {['CE', 'CSE', 'IT'].map(branch => (
               <label key={branch} className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg cursor-pointer">
                 <input
                   type="checkbox"
@@ -525,18 +525,6 @@ const InquiryForm = () => {
             ))}
           </div>
           {errors.branchPreference && <p className="text-red-500 text-xs mt-1">{errors.branchPreference}</p>}
-
-          {formData.branchPreference.includes('Other') && (
-            <input
-              type="text"
-              name="branchOther"
-              value={formData.branchOther}
-              onChange={handleInputChange}
-              placeholder="Enter branch name"
-              className={`w-full mt-2 px-3 py-2.5 border rounded-lg text-base ${errors.branchOther ? 'border-red-500' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
-            />
-          )}
-          {errors.branchOther && <p className="text-red-500 text-xs mt-1">{errors.branchOther}</p>}
         </div>
 
         {/* Admission Type */}
