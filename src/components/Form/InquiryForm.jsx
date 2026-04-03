@@ -16,6 +16,9 @@ const InquiryForm = () => {
     boardOther: '',
     pcmPR: '',
     gujcetPR: '',
+    d2dCGPA: '',
+    diplomaUniversity: '',
+    ddcetScore: '',
     branchPreference: [],
     branchOther: '',
     admissionType: [],
@@ -215,6 +218,9 @@ const InquiryForm = () => {
         boardOther: '',
         pcmPR: '',
         gujcetPR: '',
+        d2dCGPA: '',
+        diplomaUniversity: '',
+        ddcetScore: '',
         branchPreference: [],
         branchOther: '',
         admissionType: [],
@@ -504,6 +510,61 @@ const InquiryForm = () => {
             step="0.01"
             className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
+        </div>
+
+        {/* D2D Admission Section */}
+        <div className="border border-dashed border-blue-300 rounded-lg p-4 bg-blue-50/30">
+          <p className="text-sm font-semibold text-blue-600 mb-3">D2D Admission (Optional)</p>
+
+          {/* D2D CGPA */}
+          <div className="mb-3">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              D2D CGPA <span className="text-gray-400">(Optional)</span>
+            </label>
+            <input
+              type="number"
+              name="d2dCGPA"
+              value={formData.d2dCGPA}
+              onChange={handleInputChange}
+              placeholder="Enter CGPA (e.g. 8.5)"
+              min="0"
+              max="10"
+              step="0.01"
+              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* Diploma University/College */}
+          <div className="mb-3">
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              Diploma University/College Name <span className="text-gray-400">(Optional)</span>
+            </label>
+            <input
+              type="text"
+              name="diplomaUniversity"
+              value={formData.diplomaUniversity}
+              onChange={handleInputChange}
+              placeholder="Enter diploma university or college name"
+              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+
+          {/* DDCET Score */}
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">
+              DDCET Score <span className="text-gray-400">(Optional)</span>
+            </label>
+            <input
+              type="number"
+              name="ddcetScore"
+              value={formData.ddcetScore}
+              onChange={handleInputChange}
+              placeholder="Enter DDCET score"
+              min="0"
+              step="0.01"
+              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
         </div>
 
         {/* Branch Preference */}

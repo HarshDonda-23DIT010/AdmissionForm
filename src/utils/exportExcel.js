@@ -16,6 +16,9 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
     'Board': inquiry.board || '',
     '12th PCM PR': inquiry.pcmPR || 'N/A',
     'GUJCET PR': inquiry.gujcetPR || 'N/A',
+    'D2D CGPA': inquiry.d2dCGPA || 'N/A',
+    'Diploma University/College': inquiry.diplomaUniversity || 'N/A',
+    'DDCET Score': inquiry.ddcetScore || 'N/A',
     'Branch Preference': Array.isArray(inquiry.branchPreference) 
       ? inquiry.branchPreference.join(', ') 
       : inquiry.branchPreference || '',
@@ -54,6 +57,9 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
     { wch: 12 },  // Board
     { wch: 12 },  // 12th PCM PR
     { wch: 12 },  // GUJCET PR
+    { wch: 12 },  // D2D CGPA
+    { wch: 30 },  // Diploma University/College
+    { wch: 14 },  // DDCET Score
     { wch: 20 },  // Branch Preference
     { wch: 25 },  // Admission Interest Type
     { wch: 25 },  // CHARUSAT Form
