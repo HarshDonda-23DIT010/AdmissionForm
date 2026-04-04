@@ -13,6 +13,7 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
     'City/Village': inquiry.city || '',
     'District': inquiry.district || '',
     'State': inquiry.state || 'Gujarat',
+    'Student Type': inquiry.studentType || 'N/A',
     'Board': inquiry.board || '',
     '12th PCM PR': inquiry.pcmPR || 'N/A',
     'GUJCET PR': inquiry.gujcetPR || 'N/A',
@@ -54,6 +55,7 @@ export const exportToExcel = (data, fileName = 'DEPSTAR_Inquiries') => {
     { wch: 20 },  // City/Village
     { wch: 20 },  // District
     { wch: 15 },  // State
+    { wch: 14 },  // Student Type
     { wch: 12 },  // Board
     { wch: 12 },  // 12th PCM PR
     { wch: 12 },  // GUJCET PR

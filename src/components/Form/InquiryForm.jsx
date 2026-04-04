@@ -12,6 +12,7 @@ const InquiryForm = () => {
     district: '',
     districtOther: '',
     stateOther: '',
+    studentType: '12th',
     board: '',
     boardOther: '',
     pcmPR: '',
@@ -126,11 +127,11 @@ const InquiryForm = () => {
       newErrors.stateOther = 'Please specify state';
     }
 
-    if (!formData.board) {
-      newErrors.board = 'Required';
+    if (!formData.studentType) {
+      newErrors.studentType = 'Required';
     }
 
-    if (formData.board === 'Other' && !formData.boardOther.trim()) {
+    if (formData.studentType === '12th' && formData.board === 'Other' && !formData.boardOther.trim()) {
       newErrors.boardOther = 'Please specify board';
     }
 
@@ -214,6 +215,7 @@ const InquiryForm = () => {
         district: '',
         districtOther: '',
         stateOther: '',
+        studentType: '12th',
         board: '',
         boardOther: '',
         pcmPR: '',
@@ -441,131 +443,178 @@ const InquiryForm = () => {
           )}
         </div>
 
-        {/* Board */}
+        {/* Student Type Toggle */}
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            Board <span className="text-red-500">*</span>
+            Student Type <span className="text-red-500">*</span>
           </label>
-          <div className="flex flex-wrap gap-3">
-            {['GSEB', 'CBSE', 'ICSE', 'Other'].map(board => (
-              <label key={board} className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg cursor-pointer">
+          <div className="flex gap-4">
+            {['12th', 'D2D'].map(type => (
+              <label
+                key={type}
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-lg cursor-pointer border-2 transition-all ${
+                  formData.studentType === type
+                    ? 'border-blue-500 bg-blue-50 text-blue-700'
+                    : 'border-gray-200 bg-gray-50 text-gray-600 hover:border-gray-300'
+                }`}
+              >
                 <input
                   type="radio"
-                  name="board"
-                  value={board}
-                  checked={formData.board === board}
-                  onChange={handleInputChange}
-                  className="w-4 h-4 text-blue-600"
+                  name="studentType"
+                  value={type}
+                  checked={formData.studentType === type}
+                  onChange={(e) => {
+                    handleInputChange(e);
+                    // Clear the other section's fields when switching
+                    if (type === '12th') {
+                      setFormData(prev => ({ ...prev, studentType: type, d2dCGPA: '', diplomaUniversity: '', ddcetScore: '' }));
+                    } else {
+                      setFormData(prev => ({ ...prev, studentType: type, board: '', boardOther: '', pcmPR: '', gujcetPR: '' }));
+                    }
+                  }}
+                  className="w-4 h-4"
                 />
-                <span className="text-sm">{board}</span>
+                <span className="text-sm font-medium">{type === '12th' ? '12th Student' : 'D2D Admission'}</span>
               </label>
             ))}
           </div>
-          {errors.board && <p className="text-red-500 text-xs mt-1">{errors.board}</p>}
-
-          {formData.board === 'Other' && (
-            <input
-              type="text"
-              name="boardOther"
-              value={formData.boardOther}
-              onChange={handleInputChange}
-              placeholder="Enter board name"
-              className={`w-full mt-2 px-3 py-2.5 border rounded-lg text-base ${errors.boardOther ? 'border-red-500' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
-            />
-          )}
-          {errors.boardOther && <p className="text-red-500 text-xs mt-1">{errors.boardOther}</p>}
+          {errors.studentType && <p className="text-red-500 text-xs mt-1">{errors.studentType}</p>}
         </div>
 
-        {/* 12th PCM PR */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">
-            12th PCM PR <span className="text-gray-400">(Optional)</span>
-          </label>
-          <input
-            type="number"
-            name="pcmPR"
-            value={formData.pcmPR}
-            onChange={handleInputChange}
-            placeholder="Enter percentile rank"
-            min="0"
-            max="100"
-            step="0.01"
-            className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
+        {/* 12th Student Fields */}
+        {formData.studentType === '12th' && (
+          <div className="border border-dashed border-blue-300 rounded-lg p-4 bg-blue-50/30 space-y-4">
+            <p className="text-sm font-semibold text-blue-600">12th Student Details</p>
 
-        {/* GUJCET PR */}
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">
-            GUJCET PR <span className="text-gray-400">(Optional)</span>
-          </label>
-          <input
-            type="number"
-            name="gujcetPR"
-            value={formData.gujcetPR}
-            onChange={handleInputChange}
-            placeholder="Enter percentile rank"
-            min="0"
-            max="100"
-            step="0.01"
-            className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-        </div>
+            {/* Board */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-2">
+                Board <span className="text-gray-400">(Optional)</span>
+              </label>
+              <div className="flex flex-wrap gap-3">
+                {['GSEB', 'CBSE', 'ICSE', 'Other'].map(board => (
+                  <label key={board} className="flex items-center gap-2 bg-white px-3 py-2 rounded-lg cursor-pointer">
+                    <input
+                      type="radio"
+                      name="board"
+                      value={board}
+                      checked={formData.board === board}
+                      onChange={handleInputChange}
+                      className="w-4 h-4 text-blue-600"
+                    />
+                    <span className="text-sm">{board}</span>
+                  </label>
+                ))}
+              </div>
+              {errors.board && <p className="text-red-500 text-xs mt-1">{errors.board}</p>}
 
-        {/* D2D Admission Section */}
-        <div className="border border-dashed border-blue-300 rounded-lg p-4 bg-blue-50/30">
-          <p className="text-sm font-semibold text-blue-600 mb-3">D2D Admission (Optional)</p>
+              {formData.board === 'Other' && (
+                <input
+                  type="text"
+                  name="boardOther"
+                  value={formData.boardOther}
+                  onChange={handleInputChange}
+                  placeholder="Enter board name"
+                  className={`w-full mt-2 px-3 py-2.5 border rounded-lg text-base ${errors.boardOther ? 'border-red-500' : 'border-gray-300'} focus:outline-none focus:ring-2 focus:ring-blue-500`}
+                />
+              )}
+              {errors.boardOther && <p className="text-red-500 text-xs mt-1">{errors.boardOther}</p>}
+            </div>
 
-          {/* D2D CGPA */}
-          <div className="mb-3">
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              D2D CGPA <span className="text-gray-400">(Optional)</span>
-            </label>
-            <input
-              type="number"
-              name="d2dCGPA"
-              value={formData.d2dCGPA}
-              onChange={handleInputChange}
-              placeholder="Enter CGPA (e.g. 8.5)"
-              min="0"
-              max="10"
-              step="0.01"
-              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
+            {/* 12th PCM PR */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                12th PCM PR <span className="text-gray-400">(Optional)</span>
+              </label>
+              <input
+                type="number"
+                name="pcmPR"
+                value={formData.pcmPR}
+                onChange={handleInputChange}
+                placeholder="Enter percentile rank"
+                min="0"
+                max="100"
+                step="0.01"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* GUJCET PR */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                GUJCET PR <span className="text-gray-400">(Optional)</span>
+              </label>
+              <input
+                type="number"
+                name="gujcetPR"
+                value={formData.gujcetPR}
+                onChange={handleInputChange}
+                placeholder="Enter percentile rank"
+                min="0"
+                max="100"
+                step="0.01"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
           </div>
+        )}
 
-          {/* Diploma University/College */}
-          <div className="mb-3">
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Diploma University/College Name <span className="text-gray-400">(Optional)</span>
-            </label>
-            <input
-              type="text"
-              name="diplomaUniversity"
-              value={formData.diplomaUniversity}
-              onChange={handleInputChange}
-              placeholder="Enter diploma university or college name"
-              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+        {/* D2D Student Fields */}
+        {formData.studentType === 'D2D' && (
+          <div className="border border-dashed border-blue-300 rounded-lg p-4 bg-blue-50/30 space-y-4">
+            <p className="text-sm font-semibold text-blue-600">D2D Admission Details</p>
 
-          {/* DDCET Score */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              DDCET Score <span className="text-gray-400">(Optional)</span>
-            </label>
-            <input
-              type="number"
-              name="ddcetScore"
-              value={formData.ddcetScore}
-              onChange={handleInputChange}
-              placeholder="Enter DDCET score"
-              min="0"
-              step="0.01"
-              className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
+            {/* D2D CGPA */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                D2D CGPA <span className="text-gray-400">(Optional)</span>
+              </label>
+              <input
+                type="number"
+                name="d2dCGPA"
+                value={formData.d2dCGPA}
+                onChange={handleInputChange}
+                placeholder="Enter CGPA (e.g. 8.5)"
+                min="0"
+                max="10"
+                step="0.01"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* Diploma University/College */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                Diploma University/College <span className="text-gray-400">(Optional)</span>
+              </label>
+              <input
+                type="text"
+                name="diplomaUniversity"
+                value={formData.diplomaUniversity}
+                onChange={handleInputChange}
+                placeholder="Enter diploma university or college name"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
+
+            {/* DDCET Score */}
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">
+                DDCET Score <span className="text-gray-400">(Optional)</span>
+              </label>
+              <input
+                type="number"
+                name="ddcetScore"
+                value={formData.ddcetScore}
+                onChange={handleInputChange}
+                placeholder="Enter DDCET score"
+                min="0"
+                step="0.01"
+                className="w-full px-3 py-2.5 border border-gray-300 rounded-lg text-base focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Branch Preference */}
         <div>
