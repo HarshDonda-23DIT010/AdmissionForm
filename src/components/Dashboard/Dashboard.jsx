@@ -91,6 +91,32 @@ const Dashboard = () => {
     }
   };
 
+  const handleDownloadJSON = async () => {
+    setIsExporting(true);
+    try {
+      const data = await getAllInquiries();
+      if (data.length === 0) {
+        alert('No inquiries to backup');
+        setIsExporting(false);
+        return;
+      }
+      const dataStr = JSON.stringify(data, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `backup_${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      alert('Failed to download JSON backup. Please try again.');
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   const getMaxCount = () => {
     return Math.max(...weeklyStats.map(d => d.count), 1);
   };
@@ -196,6 +222,14 @@ const Dashboard = () => {
               {isExporting ? 'Exporting...' : 'Export All'}
             </button>
           </div>
+
+          <button
+            onClick={handleDownloadJSON}
+            disabled={isExporting}
+            className="w-full mt-2 bg-gray-800 text-white font-medium py-2.5 rounded-lg text-sm hover:bg-gray-900 transition-colors disabled:opacity-50"
+          >
+            {isExporting ? 'Downloading...' : 'Download JSON Backup'}
+          </button>
         </div>
       </div>
     </div>

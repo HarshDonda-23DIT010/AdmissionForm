@@ -1,0 +1,3056 @@
+[
+  {
+    "id": "fPkjh7dTb21LzJrzqYFz",
+    "district": "Ahmedabad",
+    "studentName": "KEVIN AMIT PAREKH",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "dateTime": "2026-05-07T05:57:16.131Z",
+    "remarks": "",
+    "stateOther": "",
+    "email": "parekhamit1234@gmail.com",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "city": "AHMEDABAD ",
+    "boardOther": "",
+    "d2dCGPA": "",
+    "parentMobile": "9909979200",
+    "gujcetPR": "",
+    "createdAt": "2026-05-07T05:57:16.131Z",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "studentMobile": "7041044044"
+  },
+  {
+    "id": "PTMMsUFjWwuO5X3bLP2W",
+    "studentMobile": "6352559935",
+    "studentType": "12th",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "parentMobile": "6352559935",
+    "createdAt": "2026-05-07T05:40:39.832Z",
+    "gujcetPR": "39",
+    "boardOther": "",
+    "city": "Bharuch",
+    "d2dCGPA": "",
+    "state": "Gujarat",
+    "branchOther": "",
+    "pcmPR": "56.77",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "email": "diyadhanani0@gmail.com",
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "ACPC"
+    ],
+    "branchPreference": [
+      "IT"
+    ],
+    "stateOther": "",
+    "remarks": "",
+    "dateTime": "2026-05-07T05:40:39.831Z",
+    "district": "Bharuch",
+    "studentName": "Diya Dhanani "
+  },
+  {
+    "id": "p7NRV2WfvFjBwJrly0oJ",
+    "city": "Nadiad ",
+    "boardOther": "",
+    "d2dCGPA": "",
+    "parentMobile": "9824359797",
+    "gujcetPR": "65.75",
+    "createdAt": "2026-05-07T05:33:10.852Z",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentMobile": "8511441359",
+    "district": "Kheda",
+    "studentName": "Patel Jinal Kamalkumar ",
+    "dateTime": "2026-05-07T05:33:10.852Z",
+    "remarks": "Will fill today for me and my sister Jinal",
+    "stateOther": "",
+    "branchPreference": [
+      "IT"
+    ],
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Dipika Damodar",
+    "email": "jinalpatel3427@gmail.com",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "67.93"
+  },
+  {
+    "id": "xUO04sgyE7egNRlkErSe",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "67.93",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "email": "jinalpatel3427@gmail.com",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Radhika Patel",
+    "branchPreference": [
+      "IT"
+    ],
+    "dateTime": "2026-05-07T05:31:46.431Z",
+    "remarks": "",
+    "stateOther": "",
+    "district": "Kheda",
+    "studentName": "Patel Jinal kamalkumar",
+    "studentMobile": "8511441359",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "parentMobile": "9824359797",
+    "gujcetPR": "65.75",
+    "createdAt": "2026-05-07T05:31:46.432Z",
+    "city": "Nadiad ",
+    "boardOther": "",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "HBoagdqyYLsbqS11Yq70",
+    "parentMobile": "9825542635",
+    "gujcetPR": "30.05",
+    "createdAt": "2026-05-07T05:25:29.666Z",
+    "city": "Navsari ",
+    "boardOther": "",
+    "d2dCGPA": "",
+    "studentMobile": "7016357629",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "dateTime": "2026-05-07T05:25:29.664Z",
+    "remarks": "",
+    "stateOther": "",
+    "branchPreference": [
+      "IT"
+    ],
+    "district": "Navsari",
+    "studentName": "Mananshi Viralkumar Desai",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "50.85",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "email": "mananshidesai11@gmail.com"
+  },
+  {
+    "id": "NPlAi7DbqcFv4CtRlNic",
+    "parentMobile": "9974104149",
+    "createdAt": "2026-05-07T05:20:52.001Z",
+    "gujcetPR": "",
+    "boardOther": "",
+    "city": "Balsas ",
+    "d2dCGPA": "",
+    "studentMobile": "9016062187",
+    "studentType": "12th",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "charusatFormFilled": "No",
+    "branchPreference": [
+      "CSE",
+      "IT"
+    ],
+    "remarks": "",
+    "dateTime": "2026-05-07T05:20:52.000Z",
+    "stateOther": "",
+    "district": "Valsad",
+    "studentName": "MAITRI GANESHKUMAR POYA",
+    "state": "Gujarat",
+    "branchOther": "",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "email": "ganesh_poyahari@yahoo.com",
+    "counsellorName": "Prof. Radhika Patel",
+    "admissionType": [
+      "NRI",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "mASBThRQPi8sGjMoJSBv",
+    "district": "Navsari",
+    "studentName": "Reeti chirag Naik",
+    "branchPreference": [
+      "IT"
+    ],
+    "remarks": ".",
+    "dateTime": "2026-05-07T05:18:34.438Z",
+    "stateOther": "",
+    "email": "reetinaik2212@gmail.com",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Dr. Chirag Patel",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "75.54",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "city": "Navsari",
+    "boardOther": "",
+    "d2dCGPA": "",
+    "parentMobile": "9824154530",
+    "gujcetPR": "58.74",
+    "createdAt": "2026-05-07T05:18:34.439Z",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "studentMobile": "8980625220"
+  },
+  {
+    "id": "pceH9FcSuvhTjavydRLH",
+    "parentMobile": "9429473628",
+    "createdAt": "2026-05-07T05:07:32.998Z",
+    "gujcetPR": "51.30",
+    "boardOther": "",
+    "city": "Pathri Gandevi ",
+    "d2dCGPA": "",
+    "studentMobile": "7862954474",
+    "studentType": "12th",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "dateTime": "2026-05-07T05:07:32.998Z",
+    "remarks": "",
+    "stateOther": "",
+    "district": "Navsari",
+    "studentName": "Soham Ketankumar Patel ",
+    "state": "Gujarat",
+    "branchOther": "",
+    "pcmPR": "29.02",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "email": "sohamkpatel2809@gmail.com",
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "Z3LDG8p0UYhvzDW460WM",
+    "remarks": "",
+    "dateTime": "2026-05-07T04:53:11.211Z",
+    "stateOther": "",
+    "branchPreference": [
+      "IT",
+      "CSE",
+      "CE"
+    ],
+    "studentName": "Patel Bhavya Chetankumar ",
+    "district": "Anand",
+    "districtOther": "",
+    "diplomaUniversity": "",
+    "pcmPR": "61.67",
+    "state": "Gujarat",
+    "branchOther": "",
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "email": "bhavya77724@gmail.com",
+    "createdAt": "2026-05-07T04:53:11.213Z",
+    "gujcetPR": "61.77",
+    "parentMobile": "9909239627",
+    "d2dCGPA": "",
+    "boardOther": "",
+    "city": "Devataj ",
+    "studentMobile": "9213605901",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th"
+  },
+  {
+    "id": "eoIy9as5F7ESxywiuCo6",
+    "studentMobile": "9316415698",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "parentMobile": "8866899046",
+    "gujcetPR": "54.75",
+    "createdAt": "2026-05-07T04:47:36.985Z",
+    "city": "Khambhat",
+    "boardOther": "",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "districtOther": "",
+    "branchOther": "",
+    "state": "Gujarat",
+    "pcmPR": "58.30",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "email": "rakeshrana9073@gmail.com",
+    "dateTime": "2026-05-07T04:47:36.985Z",
+    "remarks": "",
+    "stateOther": "",
+    "branchPreference": [
+      "IT"
+    ],
+    "district": "Anand",
+    "studentName": "Rana shiv Rakeshkumar"
+  },
+  {
+    "id": "zcRQriwk9WmUYbG0enGJ",
+    "branchPreference": [
+      "CSE",
+      "CE"
+    ],
+    "createdAt": "2026-04-24T10:55:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-04-24T10:55:00.000Z",
+    "remarks": "",
+    "parentMobile": "8511193851",
+    "d2dCGPA": "",
+    "city": "Surat",
+    "studentName": "SWAYAM MANISHBHAI PATEL",
+    "district": "Surat",
+    "studentMobile": "8511193850",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "email": "manishppatel781978@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Prof. Sachi Joshi",
+    "admissionType": [
+      "ACPC"
+    ]
+  },
+  {
+    "id": "yBeshD4WK30jLfW2rmM2",
+    "dateTime": "2026-04-24T10:15:00.000Z",
+    "remarks": "He will fill MQ form also.",
+    "parentMobile": "9979069187",
+    "gujcetPR": "",
+    "createdAt": "2026-04-24T10:15:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "district": "Narmada",
+    "studentName": "Soham Patel",
+    "city": "Rajpipla",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9979069187",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Dr. Dweepna Garg",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "patelsunil1976@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": ""
+  },
+  {
+    "id": "ODp1WG9kzosRlFJrqy0Q",
+    "d2dCGPA": "",
+    "city": "Surat",
+    "studentName": "Poojan Udaykumar Thumar",
+    "district": "Surat",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "createdAt": "2026-04-24T06:43:00.000Z",
+    "gujcetPR": "",
+    "remarks": "",
+    "dateTime": "2026-04-24T06:43:00.000Z",
+    "parentMobile": "9377796894",
+    "email": "shitalthumar@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Dr. Khushi Patel",
+    "admissionType": [
+      "NRI",
+      "Management Quota",
+      "ACPC"
+    ],
+    "studentMobile": "9909896894",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "hwPzKOaGS4tPAETl6VWC",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "parentMobile": "9913667712",
+    "remarks": "Will fill",
+    "dateTime": "2026-04-24T06:11:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-24T06:11:00.000Z",
+    "city": "Jhalod",
+    "d2dCGPA": "",
+    "district": "Dahod",
+    "studentName": "Siddhiben Sudhirbhai Panchal",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9016169707",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "email": "panchal.sudhir198298@gmail.com",
+    "admissionType": [
+      "NRI"
+    ],
+    "counsellorName": "Mr. Anil Kalyani"
+  },
+  {
+    "id": "6hUxrnqGcBobVstRB0kw",
+    "dateTime": "2026-04-24T06:11:00.000Z",
+    "remarks": "Will fill",
+    "parentMobile": "9714739152",
+    "createdAt": "2026-04-24T06:11:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "district": "Dahod",
+    "studentName": "Panchal Tanmay Kamalnayan",
+    "city": "Zalod ",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "6356641657",
+    "pcmPR": "",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "studentType": "12th",
+    "email": "panchaltanmay307@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No"
+  },
+  {
+    "id": "lbPf9GojVPJDSiq3vaUq",
+    "studentName": "Vansh bhavin shah ",
+    "district": "Ahmedabad",
+    "d2dCGPA": "",
+    "city": "Ahmedabad",
+    "createdAt": "2026-04-24T06:00:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9426511321",
+    "dateTime": "2026-04-24T06:00:00.000Z",
+    "remarks": "",
+    "branchPreference": [
+      "CSE"
+    ],
+    "counsellorName": "Prof. Akash Patel",
+    "admissionType": [
+      "Management Quota",
+      "ACPC",
+      "NRI"
+    ],
+    "email": "vanshshah2107@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "7043434332",
+    "pcmPR": "",
+    "state": "Gujarat"
+  },
+  {
+    "id": "DK856r5eRcshOP2bTvi0",
+    "state": "Gujarat",
+    "pcmPR": "72",
+    "studentMobile": "7984631339",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "email": "nimishasolanki@gmail.com",
+    "board": "Nios center ",
+    "ddcetScore": "",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Akash Patel",
+    "branchPreference": [
+      "CE"
+    ],
+    "remarks": "",
+    "dateTime": "2026-04-24T04:37:00.000Z",
+    "parentMobile": "9558067161",
+    "gujcetPR": "",
+    "createdAt": "2026-04-24T04:37:00.000Z",
+    "city": "Anand",
+    "d2dCGPA": "",
+    "district": "Anand",
+    "studentName": "Zalak solanki "
+  },
+  {
+    "id": "apK3i0h8sjg4kmoiWhBT",
+    "studentName": "Patel Saras Vivekkumar",
+    "district": "Mahisagar",
+    "d2dCGPA": "",
+    "city": "Balasinor",
+    "gujcetPR": "",
+    "createdAt": "2026-04-23T09:43:00.000Z",
+    "parentMobile": "9925107276",
+    "remarks": "Will fill",
+    "dateTime": "2026-04-23T09:43:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "admissionType": [
+      "Management Quota",
+      "NRI"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "No",
+    "email": "vgc9925107276@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9925107296",
+    "state": "Gujarat"
+  },
+  {
+    "id": "1x5xdGmGwnsbnfMERVhk",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "createdAt": "2026-04-23T09:27:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9374177993",
+    "remarks": "",
+    "dateTime": "2026-04-23T09:27:00.000Z",
+    "d2dCGPA": "",
+    "city": "Rajkot",
+    "studentName": "Mishti Dharmesh Samani",
+    "district": "Rajkot",
+    "studentMobile": "9427433994",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "email": "dmsamani78@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "ACPC",
+      "NRI",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "3fn58J6o8u2yJ84adtX3",
+    "parentMobile": "9428667585",
+    "remarks": "",
+    "dateTime": "2026-04-23T06:40:00.000Z",
+    "createdAt": "2026-04-23T06:40:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ],
+    "district": "Jamnagar",
+    "studentName": "Jenil Sanjaybhai Dattani ",
+    "city": "Jamnagar ",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "8866311822",
+    "pcmPR": "",
+    "counsellorName": "Prof. Dipika Damodar",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "jenildattani1907@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No"
+  },
+  {
+    "id": "BbLN3ev3ulDIx1t5BBnT",
+    "gujcetPR": "",
+    "createdAt": "2026-04-23T06:39:00.000Z",
+    "dateTime": "2026-04-23T06:39:00.000Z",
+    "remarks": "",
+    "parentMobile": "9726513332",
+    "branchPreference": [
+      "CE"
+    ],
+    "studentName": "Dhaduk Riddhi Jayeshbhai",
+    "district": "Junagadh",
+    "d2dCGPA": "",
+    "city": "Junagadh",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9727198849",
+    "state": "Gujarat",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "Yes",
+    "email": "hetaldhaduk543@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th"
+  },
+  {
+    "id": "lTo1qvHWSp0SF33rOuln",
+    "counsellorName": "Prof. Dipika Damodar",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "shubhposhiya1705@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "9213613567",
+    "pcmPR": "",
+    "district": "Rajkot",
+    "studentName": "Poshiya Shubh manishbhai ",
+    "city": "Sanala",
+    "d2dCGPA": "",
+    "parentMobile": "9687113567",
+    "remarks": "",
+    "dateTime": "2026-04-23T05:13:00.000Z",
+    "createdAt": "2026-04-23T05:13:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "2fbyGHDNhtbe6ouAc5NK",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9427813897",
+    "remarks": "",
+    "dateTime": "2026-04-22T10:30:00.000Z",
+    "createdAt": "2026-04-22T10:30:00.000Z",
+    "gujcetPR": "",
+    "city": "Ahmedabad ",
+    "d2dCGPA": "",
+    "district": "Ahmedabad",
+    "studentName": "Patel shreykumar ketankumar ",
+    "state": "Gujarat",
+    "studentMobile": "9687173035",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "pshrey909@gmail.com",
+    "ddcetScore": "",
+    "board": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Radhika Patel",
+    "admissionType": [
+      "NRI",
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "Did04CvzpXvA4B2szOVA",
+    "branchPreference": [
+      "CSE"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-22T09:16:00.000Z",
+    "remarks": "Rishi Bhaveshkumar Upadhyay ",
+    "dateTime": "2026-04-22T09:16:00.000Z",
+    "parentMobile": "9638007202",
+    "d2dCGPA": "",
+    "city": "Balasinor ",
+    "studentName": "Rishi Bhaveshkumar Upadhyay ",
+    "district": "Mahisagar",
+    "pcmPR": "",
+    "studentMobile": "9909732052",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "charusatFormFilled": "Yes",
+    "email": "rishiupadhyay142009@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Radhika Patel"
+  },
+  {
+    "id": "ThafeMRCkjkz1KSbOpYR",
+    "counsellorName": "Prof. Pravin Jadav",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "email": "pfenil446@gmail.com",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9016988739",
+    "pcmPR": "88",
+    "state": "Gujarat",
+    "studentName": "Patel Fenil J ",
+    "district": "Anand",
+    "d2dCGPA": "",
+    "city": "Sundan",
+    "createdAt": "2026-04-22T08:35:00.000Z",
+    "gujcetPR": "80",
+    "dateTime": "2026-04-22T08:35:00.000Z",
+    "remarks": "",
+    "parentMobile": "9725314504",
+    "branchPreference": [
+      "CE"
+    ]
+  },
+  {
+    "id": "lqY7M5suCfoQSAgEsnwM",
+    "studentName": "Janvi Shashwatkumar Patel",
+    "district": "Sabarkantha",
+    "d2dCGPA": "",
+    "city": "Himmatnagar",
+    "createdAt": "2026-04-22T06:36:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-04-22T06:36:00.000Z",
+    "remarks": "",
+    "parentMobile": "9925614949",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "email": "shashvat8285@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9925614949",
+    "pcmPR": "",
+    "state": "Gujarat"
+  },
+  {
+    "id": "g00QsoVaretPQYmfuyzo",
+    "d2dCGPA": "",
+    "city": "KALIPURA ",
+    "studentName": "VAISHVI MILAVBHAI PATEL ",
+    "district": "Sabarkantha",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "createdAt": "2026-04-22T06:35:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9904297314",
+    "remarks": "",
+    "dateTime": "2026-04-22T06:35:00.000Z",
+    "email": "milavpatel0077@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "Management Quota",
+      "ACPC",
+      "NRI"
+    ],
+    "studentMobile": "9904297314",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "nXFrafIjlZq5o1iYa71S",
+    "state": "Gujarat",
+    "studentMobile": "9428062604",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "mahi.pp7@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9429762527",
+    "dateTime": "2026-04-22T06:34:00.000Z",
+    "remarks": "",
+    "createdAt": "2026-04-22T06:34:00.000Z",
+    "gujcetPR": "",
+    "city": "Himmatnagar ",
+    "d2dCGPA": "",
+    "district": "Sabarkantha",
+    "studentName": "MAHIBEN PANKAJBHAI PATEL "
+  },
+  {
+    "id": "NZmMWvYEaUbfAP3XeV5V",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9979373731",
+    "remarks": "Ok",
+    "dateTime": "2026-04-22T06:33:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-22T06:33:00.000Z",
+    "city": "Himatnagar",
+    "d2dCGPA": "",
+    "district": "Sabarkantha",
+    "studentName": "Bhavya Kirtikumar Patel",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9979373731",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "kirtiptl9@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "counsellorName": "Mr. Anil Kalyani"
+  },
+  {
+    "id": "KNH1lwCr1YGFtChegt9J",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "rajeshbpatel7571@gmail.com",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9825144069",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "studentName": "Patel Aastha",
+    "district": "Surat",
+    "d2dCGPA": "",
+    "city": "Surat",
+    "createdAt": "2026-04-22T06:26:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9825144069",
+    "remarks": "",
+    "dateTime": "2026-04-22T06:26:00.000Z",
+    "branchPreference": [
+      "IT",
+      "CSE",
+      "CE"
+    ]
+  },
+  {
+    "id": "ELpDTigXzxaaXGAjWbdq",
+    "district": "Kheda",
+    "studentName": "Patel riya suresh kumar",
+    "city": "Nadiad",
+    "d2dCGPA": "",
+    "remarks": "",
+    "dateTime": "2026-04-22T04:44:00.000Z",
+    "parentMobile": "6354588953",
+    "createdAt": "2026-04-22T04:44:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "sureshpatel24172@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "7861922953",
+    "pcmPR": ""
+  },
+  {
+    "id": "ChjVfgYrzZCIECaosq57",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "8320435614",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Jay Patel",
+    "charusatFormFilled": "No",
+    "email": "helinaprajapati7755@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "gujcetPR": "",
+    "createdAt": "2026-04-21T09:11:00.000Z",
+    "parentMobile": "9328307755",
+    "remarks": "",
+    "dateTime": "2026-04-21T09:11:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "Prajapati katha Jitendra Kumar ",
+    "district": "Kheda",
+    "d2dCGPA": "",
+    "city": "Sandhana "
+  },
+  {
+    "id": "nrFw2SWznMqfAtHW6Z0K",
+    "gujcetPR": "",
+    "createdAt": "2026-04-21T06:53:00.000Z",
+    "parentMobile": "9824393534",
+    "remarks": "",
+    "dateTime": "2026-04-21T06:53:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "het parekh",
+    "district": "Aravalli",
+    "d2dCGPA": "",
+    "city": "Bayad",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "8780450013",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "NRI",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Gaurang Patel",
+    "charusatFormFilled": "No",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "email": "parekhhet216@gmail.com",
+    "studentType": "12th"
+  },
+  {
+    "id": "BSjoQJIYO7FboD0h8KZc",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "remarks": "",
+    "dateTime": "2026-04-21T06:48:00.000Z",
+    "parentMobile": "9428773695",
+    "gujcetPR": "",
+    "createdAt": "2026-04-21T06:48:00.000Z",
+    "city": "Bayad",
+    "d2dCGPA": "",
+    "district": "Aravalli",
+    "studentName": "Patel sneh dipakbhai",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9227103631",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "Snehpatel3631@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "admissionType": [
+      "NRI"
+    ],
+    "counsellorName": "Prof. Gaurang Patel"
+  },
+  {
+    "id": "EMQkg4YKowj7C5rw7UqQ",
+    "branchPreference": [
+      "CE"
+    ],
+    "createdAt": "2026-04-21T05:29:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9879063433",
+    "remarks": "",
+    "dateTime": "2026-04-21T05:29:00.000Z",
+    "d2dCGPA": "",
+    "city": "Mithapur ",
+    "studentName": "Bhaumik Jitesh Chauhan ",
+    "district": "Devbhoomi Dwarka",
+    "studentMobile": "8530441922",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "email": "bhaumikc22@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Dr. Khushi Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "LcWm62ufLcbBs0jKYTI5",
+    "studentName": "Bhavya Chauhan ",
+    "district": "Devbhoomi Dwarka",
+    "d2dCGPA": "",
+    "city": "Mithapur ",
+    "createdAt": "2026-04-21T05:23:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "8460198058",
+    "remarks": "",
+    "dateTime": "2026-04-21T05:23:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "counsellorName": "Dr. Khushi Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "email": "bhavyachauhan598@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9512640208",
+    "pcmPR": "",
+    "state": "Gujarat"
+  },
+  {
+    "id": "c3ErRFbXfHTgZxcz1FP0",
+    "d2dCGPA": "",
+    "city": "Rajkot",
+    "studentName": "Honey Yogesh parmar",
+    "district": "Rajkot",
+    "branchPreference": [
+      "CSE"
+    ],
+    "createdAt": "2026-04-21T05:22:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9099022264",
+    "remarks": "",
+    "dateTime": "2026-04-21T05:22:00.000Z",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "honeyparmar0578@gmail.com",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Dr. Khushi Patel",
+    "admissionType": [
+      "ACPC"
+    ],
+    "studentMobile": "7863099603",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "Yqg0Aw93j5y0dS0AKI5M",
+    "pcmPR": "",
+    "studentMobile": "9327702064",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "charusatFormFilled": "No",
+    "email": "sjpking08@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Gaurang Patel",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-21T05:09:00.000Z",
+    "parentMobile": "9033702064",
+    "remarks": "",
+    "dateTime": "2026-04-21T05:09:00.000Z",
+    "d2dCGPA": "",
+    "city": "Anand",
+    "studentName": "Shubham Panchal",
+    "district": "Anand"
+  },
+  {
+    "id": "giKMzXReFGKw3Fkwas3W",
+    "branchPreference": [
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9825700944",
+    "remarks": "",
+    "dateTime": "2026-04-20T08:24:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-20T08:24:00.000Z",
+    "city": "Viramgam ",
+    "d2dCGPA": "",
+    "district": "Ahmedabad",
+    "studentName": "Angel Patel",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "6352508398",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "email": "angel.m.patel160@gmail.com",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Prashant Jadav"
+  },
+  {
+    "id": "JYvgjQDrKZWtZTXeNgAu",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "remarks": "",
+    "dateTime": "2026-04-20T07:28:00.000Z",
+    "parentMobile": "9879807057",
+    "createdAt": "2026-04-20T07:28:00.000Z",
+    "gujcetPR": "",
+    "city": "Surat",
+    "d2dCGPA": "",
+    "district": "Surat",
+    "studentName": "Rachitkumar Tejasbhai Gajjar",
+    "state": "Gujarat",
+    "studentMobile": "9879807057",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "tejasigajjar@yahoo.co.in",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Sachin Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "eatJC7RCf9dklxPeOIv2",
+    "district": "Anand",
+    "studentName": "Prince Bhadreshbhai Anjana",
+    "city": "Petlad",
+    "d2dCGPA": "",
+    "parentMobile": "7016477239",
+    "dateTime": "2026-04-20T07:07:00.000Z",
+    "remarks": "",
+    "createdAt": "2026-04-20T07:07:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE"
+    ],
+    "counsellorName": "Prof. Bhavika Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "princeanjana206@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "8200464595",
+    "pcmPR": ""
+  },
+  {
+    "id": "fpYx7ICJk5GLe6DHCA9F",
+    "parentMobile": "9879418824",
+    "dateTime": "2026-04-20T03:55:00.000Z",
+    "remarks": "",
+    "createdAt": "2026-04-20T03:55:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "district": "Morbi",
+    "studentName": "Amrutiya krushi Gajendrahhai ",
+    "city": "Morbi",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "7359925000",
+    "pcmPR": "",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC"
+    ],
+    "studentType": "12th",
+    "email": "amrutiyakrushi@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No"
+  },
+  {
+    "id": "3SXx2SwADRbn5EnS6E9X",
+    "gujcetPR": "",
+    "createdAt": "2026-04-18T08:44:00.000Z",
+    "parentMobile": "9327247189",
+    "remarks": "",
+    "dateTime": "2026-04-18T08:44:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "studentName": "Shrey pandya ",
+    "district": "Vadodara",
+    "d2dCGPA": "",
+    "city": "Vadodara",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9327247189",
+    "state": "Gujarat",
+    "admissionType": [
+      "NRI"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "shreypandya15@gmail.com",
+    "studentType": "12th"
+  },
+  {
+    "id": "nXpzCe03cSaX8BdSbmj2",
+    "branchPreference": [
+      "CSE"
+    ],
+    "createdAt": "2026-04-18T08:09:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9825484980",
+    "remarks": "",
+    "dateTime": "2026-04-18T08:09:00.000Z",
+    "d2dCGPA": "",
+    "city": "Surendranagar ",
+    "studentName": "Tithi rajeshkumar vadgama",
+    "district": "Surendranagar",
+    "studentMobile": "9375767788",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "rajesh@aksarfood.com",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "oVwbhCWzMMn8CQbrkgnY",
+    "diplomaUniversity": "",
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "studentMobile": "8401591611",
+    "pcmPR": "",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "ktindia11@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "remarks": "",
+    "dateTime": "2026-04-18T07:44:00.000Z",
+    "parentMobile": "9737688661",
+    "createdAt": "2026-04-18T07:44:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "district": "Dadra and Nagar Haveli ",
+    "studentName": "Kevin Bhargavbhai Thakkar ",
+    "city": "Silvassa",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "Yo17X5DF3rYapZ4mfHAd",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "9998769307",
+    "pcmPR": "",
+    "counsellorName": "Prof. Ritika Jani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "nivedita305@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "parentMobile": "9998769307",
+    "remarks": "",
+    "dateTime": "2026-04-18T06:57:00.000Z",
+    "createdAt": "2026-04-18T06:57:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "district": "Vadodara",
+    "studentName": "Aashi Kumar",
+    "city": "Vadodara",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "RD23hxXVYG2F0ZUC5Hi9",
+    "createdAt": "2026-04-18T05:56:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9879280528",
+    "remarks": "Will fill form shortly",
+    "dateTime": "2026-04-18T05:56:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "Akshar Divyeshbhai patel",
+    "district": "Vadodara",
+    "d2dCGPA": "",
+    "city": "Vadodara",
+    "diplomaUniversity": "",
+    "studentMobile": "9879280528",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "board": "GSEB",
+    "ddcetScore": "",
+    "email": "divyeshj1976@gmail.com",
+    "charusatFormFilled": "No",
+    "studentType": "12th"
+  },
+  {
+    "id": "0sSkSjttTEomnxMR9nV2",
+    "counsellorName": "Prof. Ritika Jani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentType": "12th",
+    "email": "rajveermaurya1919@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "9016672948",
+    "pcmPR": "",
+    "district": "Anand",
+    "studentName": "RAJVEER AKHLESHKUMAR MAURYA",
+    "city": "MOGRI",
+    "d2dCGPA": "",
+    "parentMobile": "9898190176",
+    "remarks": "",
+    "dateTime": "2026-04-18T05:55:00.000Z",
+    "createdAt": "2026-04-18T05:55:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "IciNXvS5vq7uyyuv8xpb",
+    "diplomaUniversity": "",
+    "studentMobile": "9979482064",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "email": "pateldivyesh48@yahoo.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "createdAt": "2026-04-18T05:49:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-04-18T05:49:00.000Z",
+    "remarks": "Will fill form",
+    "parentMobile": "9979182064",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "Nilkanth Divyeshhai patel",
+    "district": "Vadodara",
+    "d2dCGPA": "",
+    "city": "Vadodara "
+  },
+  {
+    "id": "VRD8iT87cYb6ajcmlgM6",
+    "state": "Gujarat",
+    "studentMobile": "9375875990",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "yp261076@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "9375875990",
+    "remarks": "Will fill forn",
+    "dateTime": "2026-04-18T05:48:00.000Z",
+    "createdAt": "2026-04-18T05:48:00.000Z",
+    "gujcetPR": "",
+    "city": "Vadodara",
+    "d2dCGPA": "",
+    "district": "Vadodara",
+    "studentName": "Dhruvil patel"
+  },
+  {
+    "id": "aFH3XkJ6UtAeI0A3nveS",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "NRI"
+    ],
+    "studentType": "12th",
+    "email": "maahitushar29@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "9998724709",
+    "pcmPR": "",
+    "district": "Vadodara",
+    "studentName": "Maahi Patel",
+    "city": "Vadodara ",
+    "d2dCGPA": "",
+    "dateTime": "2026-04-17T05:07:00.000Z",
+    "remarks": "results are not out will fill form nri cse intrested",
+    "parentMobile": "9998724709",
+    "createdAt": "2026-04-17T05:07:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "nX7gsynTCRaaRukPAnwj",
+    "district": "Anand",
+    "studentName": "Harsh Vinesh Kumar Patel",
+    "city": "Bamgam",
+    "d2dCGPA": "",
+    "parentMobile": "9510930251",
+    "remarks": "Will fill up MQ form",
+    "dateTime": "2026-04-17T04:54:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-17T04:54:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Dr. Khushi Patel",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "hvkppatel@gmail.com",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9265703987"
+  },
+  {
+    "id": "ZtAlhBzFSUvzGoAywwzR",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "8469761325",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "priyanshi01228@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "counsellorName": "Dr. Premal Patel",
+    "branchPreference": [
+      "CSE"
+    ],
+    "remarks": "",
+    "dateTime": "2026-04-16T15:14:00.000Z",
+    "parentMobile": "9427505995",
+    "gujcetPR": "",
+    "createdAt": "2026-04-16T15:14:00.000Z",
+    "city": "Rajkot",
+    "d2dCGPA": "",
+    "district": "Rajkot",
+    "studentName": "Mehta priyanshi girishbhai"
+  },
+  {
+    "id": "qPp72Yr5RiqGtecZIET4",
+    "d2dCGPA": "",
+    "city": "Morbi",
+    "studentName": "Virpariya Prince ",
+    "district": "Morbi",
+    "branchPreference": [
+      "IT"
+    ],
+    "createdAt": "2026-04-16T11:02:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9898842312",
+    "remarks": "",
+    "dateTime": "2026-04-16T11:02:00.000Z",
+    "email": "Pareshpatelekta@gmail.com",
+    "board": "",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Prof. Priyanka Padhiyar",
+    "admissionType": [
+      "ACPC"
+    ],
+    "studentMobile": "9898842312",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "B0oZk992MFAsEq2n8Zwe",
+    "studentName": "Dhairya Patel",
+    "district": "Surat",
+    "d2dCGPA": "",
+    "city": "Surat",
+    "gujcetPR": "",
+    "createdAt": "2026-04-16T09:03:00.000Z",
+    "parentMobile": "9714472372",
+    "remarks": "Fixed",
+    "dateTime": "2026-04-16T09:03:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "charusatFormFilled": "Yes",
+    "email": "jayeshpatel2354@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9714472372",
+    "state": "Gujarat"
+  },
+  {
+    "id": "YiIppFmDq6uMKF4C98tu",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-15T05:56:00.000Z",
+    "parentMobile": "9712936101",
+    "remarks": "",
+    "dateTime": "2026-04-15T05:56:00.000Z",
+    "d2dCGPA": "",
+    "city": "AHMEDABAD",
+    "studentName": "Ansh Monish Shah",
+    "district": "Ahmedabad",
+    "pcmPR": "",
+    "studentMobile": "9712936101",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "setushah80@gmail.com",
+    "studentType": "12th",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Ritika Jani"
+  },
+  {
+    "id": "7mfjuJ0lb1WqimewTO0a",
+    "charusatFormFilled": "No",
+    "email": "dp286980@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Prashant Jadav",
+    "pcmPR": "",
+    "studentMobile": "9714608385",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "d2dCGPA": "",
+    "city": "Maholel",
+    "studentName": "Patel Dhruv",
+    "district": "Kheda",
+    "branchPreference": [
+      "IT",
+      "CE"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-15T05:06:00.000Z",
+    "parentMobile": "9974608385",
+    "remarks": "",
+    "dateTime": "2026-04-15T05:06:00.000Z"
+  },
+  {
+    "id": "7cqvv314zer0GNEolFso",
+    "state": "Gujarat",
+    "studentMobile": "9409035007",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "mitalrs77@gmail.com",
+    "charusatFormFilled": "Yes",
+    "counsellorName": "Prof. Jay Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9727163660",
+    "remarks": "",
+    "dateTime": "2026-04-14T09:06:00.000Z",
+    "createdAt": "2026-04-14T09:06:00.000Z",
+    "gujcetPR": "",
+    "city": "Nadiad",
+    "d2dCGPA": "",
+    "district": "Kheda",
+    "studentName": "Patel Riddhi Jitendrabhai"
+  },
+  {
+    "id": "fuixAmCuJWwTkanUBHcu",
+    "d2dCGPA": "",
+    "city": "Ahmedabad ",
+    "studentName": "Rishabh Raj ",
+    "district": "Ahmedabad",
+    "branchPreference": [
+      "IT",
+      "CSE"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-14T08:34:00.000Z",
+    "parentMobile": "9921003138",
+    "remarks": "",
+    "dateTime": "2026-04-14T08:34:00.000Z",
+    "charusatFormFilled": "No",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "email": "rishabhraj522008@gmail.com",
+    "studentType": "12th",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Jay Patel",
+    "pcmPR": "",
+    "studentMobile": "9316158267",
+    "state": "Gujarat",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "7tvg92cP9sZ6815pDYQx",
+    "city": "Khambhat ",
+    "d2dCGPA": "",
+    "district": "Anand",
+    "studentName": "Vansh Ankitbhai mistry",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9924683523",
+    "remarks": "",
+    "dateTime": "2026-04-14T07:14:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-14T07:14:00.000Z",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "email": "ankitmistry8887@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "counsellorName": "Prof. Jay Patel",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9023960216",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "VGwE1endojkRzvmzcSiG",
+    "studentName": "Jal Patel",
+    "district": "Kheda",
+    "d2dCGPA": "",
+    "city": "Keriavi ",
+    "createdAt": "2026-04-13T10:32:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-04-13T10:32:00.000Z",
+    "remarks": "",
+    "parentMobile": "7984929341",
+    "branchPreference": [
+      "IT"
+    ],
+    "counsellorName": "Dr. Premal Patel",
+    "admissionType": [
+      "NRI"
+    ],
+    "email": "jp8445367@gmail.com",
+    "board": "ICSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9106447449",
+    "pcmPR": "",
+    "state": "Gujarat"
+  },
+  {
+    "id": "H5pSBKJj1Oqu5im78Krs",
+    "studentType": "12th",
+    "email": "ashokashish83@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "ACPC"
+    ],
+    "state": "Gujarat",
+    "studentMobile": "7046468673",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "city": "Vadodara",
+    "d2dCGPA": "",
+    "district": "Vadodara",
+    "studentName": "Jiya Chandnani",
+    "branchPreference": [
+      "CSE"
+    ],
+    "remarks": "",
+    "dateTime": "2026-04-13T09:58:00.000Z",
+    "parentMobile": "7046468673",
+    "createdAt": "2026-04-13T09:58:00.000Z",
+    "gujcetPR": ""
+  },
+  {
+    "id": "Nj3DfYwhSlTmRrUMuLrm",
+    "branchPreference": [
+      "CSE"
+    ],
+    "createdAt": "2026-04-13T09:00:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-04-13T09:00:00.000Z",
+    "remarks": "",
+    "parentMobile": "9723087545",
+    "d2dCGPA": "",
+    "city": "Anand",
+    "studentName": "Dhyan Minesh Kumar patel ",
+    "district": "Anand",
+    "studentMobile": "9925223508",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "email": "dhyangamer3210@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Prof. Sachin Patel",
+    "admissionType": [
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "lcYYRfJNu6vrPADsLpP4",
+    "studentName": "Kavya PankajKumar Patel",
+    "district": "Gandhinagar",
+    "d2dCGPA": "",
+    "city": "Mansa",
+    "createdAt": "2026-04-13T08:21:00.000Z",
+    "gujcetPR": "",
+    "remarks": "",
+    "dateTime": "2026-04-13T08:21:00.000Z",
+    "parentMobile": "9426233394",
+    "branchPreference": [
+      "CSE",
+      "IT",
+      "CE"
+    ],
+    "counsellorName": "Prof. Sachin Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "email": "kppatel6209@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9824046076",
+    "pcmPR": "",
+    "state": "Gujarat"
+  },
+  {
+    "id": "rCBrmHUA0LuQEokvXNAE",
+    "diplomaUniversity": "",
+    "studentMobile": "9106245108",
+    "pcmPR": "70",
+    "state": "Gujarat",
+    "counsellorName": "Dr. Amit Nayak",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "email": "zankatdevanshi@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "createdAt": "2026-04-13T07:26:00.000Z",
+    "gujcetPR": "70",
+    "parentMobile": "9106245108",
+    "dateTime": "2026-04-13T07:26:00.000Z",
+    "remarks": "",
+    "branchPreference": [
+      "CE"
+    ],
+    "studentName": "Jayraj barad ",
+    "district": "Ahmedabad",
+    "d2dCGPA": "",
+    "city": "Ahemdabad "
+  },
+  {
+    "id": "x0ADATDPzJ25wYyzVIgb",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9898152120",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "sunilpalod89573@gmail.com",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Dipika Damodar",
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "9898152143",
+    "remarks": "",
+    "dateTime": "2026-04-13T06:48:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-13T06:48:00.000Z",
+    "city": "Vadodara ",
+    "d2dCGPA": "",
+    "district": "Vadodara",
+    "studentName": "Priyanshi Sunilbhai Palod"
+  },
+  {
+    "id": "1yUyh2XBCKVs7W0sJyON",
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "9898152143",
+    "remarks": "",
+    "dateTime": "2026-04-13T06:46:00.000Z",
+    "createdAt": "2026-04-13T06:46:00.000Z",
+    "gujcetPR": "",
+    "city": "Vadodara ",
+    "d2dCGPA": "",
+    "district": "Vadodara",
+    "studentName": "Priyanshi Sunil hai Palod",
+    "state": "Gujarat",
+    "studentMobile": "9898152120",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "sunilpalod89573@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Dipika Damodar",
+    "admissionType": [
+      "ACPC"
+    ]
+  },
+  {
+    "id": "1GCv3m1F0B5dP4binnwu",
+    "createdAt": "2026-04-13T06:17:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9227424405",
+    "remarks": "",
+    "dateTime": "2026-04-13T06:17:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "Mann Jigarbhai Patel ",
+    "district": "Ahmedabad",
+    "d2dCGPA": "",
+    "city": "Maninagar ",
+    "diplomaUniversity": "",
+    "studentMobile": "7698694405",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "counsellorName": "Prof. Dipika Damodar",
+    "admissionType": [
+      "ACPC"
+    ],
+    "ddcetScore": "",
+    "board": "ICSE",
+    "email": "jigar261176@gmail.com",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th"
+  },
+  {
+    "id": "rQYFg2ZLngGweK64LKED",
+    "district": "Sabarkantha",
+    "studentName": "Bhavy Rakeshkumar Patel ",
+    "city": "Himatnagar",
+    "d2dCGPA": "",
+    "remarks": "",
+    "dateTime": "2026-04-10T07:11:00.000Z",
+    "parentMobile": "9687716980",
+    "createdAt": "2026-04-10T07:11:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "studentType": "12th",
+    "email": "abubhalu726@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "7990846136",
+    "pcmPR": ""
+  },
+  {
+    "id": "UAYPhgOwVmeMI0NpJnct",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "7624001394",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Sachin Patel",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "hetarth202@gmail.com",
+    "studentType": "12th",
+    "gujcetPR": "",
+    "createdAt": "2026-04-09T08:41:00.000Z",
+    "parentMobile": "9228172672",
+    "remarks": "",
+    "dateTime": "2026-04-09T08:41:00.000Z",
+    "branchPreference": [
+      "CE"
+    ],
+    "studentName": "Hetarth palkeshkumar trivedi",
+    "district": "Anand",
+    "d2dCGPA": "",
+    "city": "Anand"
+  },
+  {
+    "id": "TofOSWCW3iT42AUcstrM",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "email": "hetpatel1732008@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9173801265",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "studentName": "Het Patel",
+    "district": "Bharuch",
+    "d2dCGPA": "",
+    "city": "Bharuch",
+    "createdAt": "2026-04-09T07:03:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "8511101265",
+    "remarks": "Mq form will be filled",
+    "dateTime": "2026-04-09T07:03:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "TRE6grshXO79AY8OMMOo",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9327311204",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "laypatel4592@icloud.com",
+    "parentMobile": "9979681287",
+    "remarks": "",
+    "dateTime": "2026-04-09T06:11:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-09T06:11:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "district": "Surat",
+    "studentName": "Lay patel",
+    "city": "surat ",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "W97aUQg61Ua0VW70iTTw",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9726123123",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Akash Patel",
+    "charusatFormFilled": "Yes",
+    "email": "nityamrudulpatel@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "gujcetPR": "",
+    "createdAt": "2026-04-09T04:32:00.000Z",
+    "parentMobile": "9726123123",
+    "dateTime": "2026-04-09T04:32:00.000Z",
+    "remarks": "",
+    "branchPreference": [
+      "IT"
+    ],
+    "studentName": "Nitya Mrudulbhai Patel ",
+    "district": "Kheda",
+    "d2dCGPA": "",
+    "city": "Pij"
+  },
+  {
+    "id": "ToliqnS77h6xr2sEWOPl",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9429122813",
+    "state": "Gujarat",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "No",
+    "email": "arorajyoti1003@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "gujcetPR": "",
+    "createdAt": "2026-04-09T04:26:00.000Z",
+    "remarks": "Will fill today",
+    "dateTime": "2026-04-09T04:26:00.000Z",
+    "parentMobile": "9879555076",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "studentName": "Divyansha arora",
+    "district": "Vadodara",
+    "d2dCGPA": "",
+    "city": "VADODARA"
+  },
+  {
+    "id": "cgGjl1Z6l1yqwdYbxAfK",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "8347888470",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "ramsichauhan2@gmail.com",
+    "parentMobile": "9427496211",
+    "remarks": "Form filled",
+    "dateTime": "2026-04-09T04:17:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-09T04:17:00.000Z",
+    "branchPreference": [
+      "CE"
+    ],
+    "district": "Bhavnagar",
+    "studentName": "Manya Chauhan ",
+    "city": "Bhavnagar",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "EtZiGTurVxFydkGVPAIR",
+    "gujcetPR": "",
+    "createdAt": "2026-04-08T06:41:00.000Z",
+    "parentMobile": "9428008143",
+    "remarks": "",
+    "dateTime": "2026-04-08T06:41:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "AKSH PANKAJKUMAR PATEL",
+    "district": "Mehsana",
+    "d2dCGPA": "",
+    "city": "Mahesana",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9427434433",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "Yes",
+    "email": "nothinglie33@gmail.com",
+    "board": "",
+    "ddcetScore": "",
+    "studentType": "12th"
+  },
+  {
+    "id": "dbP3eHUQMc9ZAUXFciRq",
+    "district": "Vadodara",
+    "studentName": "Aarav pinalkumar shah",
+    "city": "Baroda",
+    "d2dCGPA": "",
+    "parentMobile": "9898226688",
+    "remarks": "Link is given will fill nri quota intrested",
+    "dateTime": "2026-04-08T06:30:00.000Z",
+    "createdAt": "2026-04-08T06:30:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CSE"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "NRI",
+      "Management Quota",
+      "ACPC"
+    ],
+    "studentType": "12th",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "email": "virbaroda@yahoo.com",
+    "charusatFormFilled": "No",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "8980977199",
+    "pcmPR": ""
+  },
+  {
+    "id": "KgFKUahAcD9enHQO7SYe",
+    "charusatFormFilled": "Yes",
+    "email": "ndbhadja12@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "admissionType": [
+      "Management Quota",
+      "NRI"
+    ],
+    "counsellorName": "Prof. Dipika Damodar",
+    "pcmPR": "",
+    "studentMobile": "9909414264",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "d2dCGPA": "",
+    "city": "Morvi",
+    "studentName": "Om Nilesh Bhadja ",
+    "district": "Morbi",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-08T05:46:00.000Z",
+    "parentMobile": "9909414264",
+    "remarks": "",
+    "dateTime": "2026-04-08T05:46:00.000Z"
+  },
+  {
+    "id": "7p5roaZzLNsELovQN5UF",
+    "createdAt": "2026-04-07T08:13:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9824199185",
+    "remarks": "",
+    "dateTime": "2026-04-07T08:13:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE"
+    ],
+    "studentName": "Parth Dharmesh Prajapati ",
+    "district": "Vadodara",
+    "d2dCGPA": "",
+    "city": "Vadodara ",
+    "diplomaUniversity": "",
+    "studentMobile": "9904279281",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "counsellorName": "Prof. Jay Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "email": "dharamdeep2004@yahoo.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th"
+  },
+  {
+    "id": "5KE468rhw17U63q484FY",
+    "gujcetPR": "",
+    "createdAt": "2026-04-06T06:51:00.000Z",
+    "parentMobile": "9825128241",
+    "remarks": "",
+    "dateTime": "2026-04-06T06:51:00.000Z",
+    "branchPreference": [
+      "IT",
+      "CSE",
+      "CE"
+    ],
+    "studentName": "Rudra Patoliya",
+    "district": "Surat",
+    "d2dCGPA": "",
+    "city": "Surat",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "7405722852",
+    "state": "Gujarat",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "Yes",
+    "email": "Rudra.a.patoliya@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "studentType": "12th"
+  },
+  {
+    "id": "55rjlMP5VLTFZigAcxMZ",
+    "board": "",
+    "ddcetScore": "",
+    "email": "gamermeet06@gmail.com",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentMobile": "9974062813",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "d2dCGPA": "",
+    "city": "Jamnagar ",
+    "studentName": "Meet soni ",
+    "district": "Jamnagar",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "createdAt": "2026-04-06T05:17:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9974062813",
+    "remarks": "Will fill  mq form ",
+    "dateTime": "2026-04-06T05:17:00.000Z"
+  },
+  {
+    "id": "K8xZXlRujBjkIHAWUhOW",
+    "city": "Ankleshwar",
+    "d2dCGPA": "",
+    "district": "Bharuch",
+    "studentName": "Sureja Smit Mahendrabhai",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "8160599535",
+    "remarks": "",
+    "dateTime": "2026-04-04T09:36:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-04-04T09:36:00.000Z",
+    "studentType": "12th",
+    "charusatFormFilled": "Yes",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "surejamahendra92@gmail.com",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "8160599535",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "2z4Fgm4LrBba78gbHbcx",
+    "dateTime": "2026-04-04T09:35:00.000Z",
+    "remarks": "Will fill it ",
+    "parentMobile": "9825415178",
+    "createdAt": "2026-04-04T09:35:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "district": "Ahmedabad",
+    "studentName": "Prathamesh Sandip Bhave",
+    "city": "Ahmedabad ",
+    "d2dCGPA": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "8735969273",
+    "pcmPR": "",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "studentType": "12th",
+    "email": "ssb151@yahoo.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No"
+  },
+  {
+    "id": "R8Bcq5jUD3SsxHBd8Ki9",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "studentMobile": "9429486113",
+    "pcmPR": "",
+    "counsellorName": "Dr. Premal Patel",
+    "admissionType": [
+      "ACPC"
+    ],
+    "studentType": "12th",
+    "email": "shitalamin79@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "Yes",
+    "remarks": "",
+    "dateTime": "2026-04-04T05:39:00.000Z",
+    "parentMobile": "9429486113",
+    "createdAt": "2026-04-04T05:39:00.000Z",
+    "gujcetPR": "",
+    "branchPreference": [
+      "CE"
+    ],
+    "district": "Kheda",
+    "studentName": "Shubh hemang amin",
+    "city": "Vaso",
+    "d2dCGPA": ""
+  },
+  {
+    "id": "fTmfr9bgKk2e3NQG77UA",
+    "branchPreference": [
+      "CE"
+    ],
+    "gujcetPR": "",
+    "createdAt": "2026-04-04T05:34:00.000Z",
+    "dateTime": "2026-04-04T05:34:00.000Z",
+    "remarks": "",
+    "parentMobile": "9428585480",
+    "d2dCGPA": "",
+    "city": "Vaso",
+    "studentName": "Veer Amin ",
+    "district": "Kheda",
+    "pcmPR": "",
+    "studentMobile": "9033510929",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "charusatFormFilled": "Yes",
+    "email": "aminv6777@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Dr. Premal Patel"
+  },
+  {
+    "id": "S7yG80zURhwu5MuW3JvQ",
+    "studentName": "Jay kavaiya ",
+    "district": "Ahmedabad",
+    "d2dCGPA": "",
+    "city": "Ahmedabad",
+    "createdAt": "2026-04-03T10:11:00.000Z",
+    "gujcetPR": "80",
+    "parentMobile": "9327125714",
+    "remarks": "",
+    "dateTime": "2026-04-03T10:11:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "counsellorName": "Prof. Siddharth Shah",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "email": "kavaiyajay723@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "Yes",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "8460700911",
+    "pcmPR": "50",
+    "state": "Gujarat"
+  },
+  {
+    "id": "hkqs75vk8QYX93uoPHMF",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9737679111",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "chirag231980@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Prof. Sachin Patel",
+    "branchPreference": [
+      "CSE"
+    ],
+    "dateTime": "2026-04-02T06:24:00.000Z",
+    "remarks": "",
+    "parentMobile": "9898721688",
+    "gujcetPR": "",
+    "createdAt": "2026-04-02T06:24:00.000Z",
+    "city": "Vadodara",
+    "d2dCGPA": "",
+    "district": "Vadodara",
+    "studentName": "Suhani Chirag Patel"
+  },
+  {
+    "id": "lQKKgZdEnbFU4DTsoIx7",
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "9978856333",
+    "remarks": "Will fill form",
+    "dateTime": "2026-04-02T05:48:00.000Z",
+    "createdAt": "2026-04-02T05:48:00.000Z",
+    "gujcetPR": "",
+    "city": "Traj",
+    "d2dCGPA": "",
+    "district": "Kheda",
+    "studentName": "Shubham Patel",
+    "state": "Gujarat",
+    "studentMobile": "9978856333",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "sunil.patel27275@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ]
+  },
+  {
+    "id": "E4eH8UBefuh6Lal4PUXp",
+    "state": "Gujarat",
+    "studentMobile": "7041196666",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "jaybhatheja879@gmail.com",
+    "board": "CBSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Akash Patel",
+    "admissionType": [
+      "NRI"
+    ],
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "8200672267",
+    "remarks": "12th passed out 2025-88%",
+    "dateTime": "2026-04-02T04:49:00.000Z",
+    "createdAt": "2026-04-02T04:49:00.000Z",
+    "gujcetPR": "",
+    "city": "Navsari",
+    "d2dCGPA": "",
+    "district": "Navsari",
+    "studentName": "Jay Bhatheja"
+  },
+  {
+    "id": "by3qROXFye1bhKgQ2vkA",
+    "branchPreference": [
+      "IT"
+    ],
+    "dateTime": "2026-04-01T10:36:00.000Z",
+    "remarks": "D2D admission aspirant",
+    "parentMobile": "9428486096",
+    "createdAt": "2026-04-01T10:36:00.000Z",
+    "gujcetPR": "",
+    "city": "Dharmaj ",
+    "d2dCGPA": "",
+    "district": "Anand",
+    "studentName": "Patel Smit Mitesh",
+    "state": "Gujarat",
+    "studentMobile": "8866499813",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "email": "smitmpatel3124@gmail.com",
+    "board": "GTU",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Radhika Patel",
+    "admissionType": [
+      "ACPC"
+    ]
+  },
+  {
+    "id": "FI47wD9uqj4AOml4LSb9",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC"
+    ],
+    "ddcetScore": "",
+    "board": "GSEB",
+    "email": "kavyapanchal655173@gmail.com",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9265560404",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "studentName": "Kavya Panchal",
+    "district": "Anand",
+    "d2dCGPA": "",
+    "city": "Anand",
+    "createdAt": "2026-04-01T08:51:00.000Z",
+    "gujcetPR": "",
+    "parentMobile": "9978907495",
+    "remarks": "",
+    "dateTime": "2026-04-01T08:51:00.000Z",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ]
+  },
+  {
+    "id": "b2NMD0aNSdJVynlVvsyo",
+    "branchPreference": [
+      "CE",
+      "CSE",
+      "IT"
+    ],
+    "parentMobile": "9978907495",
+    "dateTime": "2026-04-01T06:36:00.000Z",
+    "remarks": "D2D inquiry regarding ",
+    "gujcetPR": "",
+    "createdAt": "2026-04-01T06:36:00.000Z",
+    "city": "Anand",
+    "d2dCGPA": "",
+    "district": "Anand",
+    "studentName": "Panchal Kavya Maheshkumar ",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9265560404",
+    "diplomaUniversity": "",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "kavyapanchal655173@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani"
+  },
+  {
+    "id": "YnNYFlVfub45RKDgnz3O",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "counsellorName": "Prof. Jay Patel",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "mahirpatel2798@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9879178322",
+    "district": "Anand",
+    "studentName": "Mahir hirenbhai patel",
+    "city": "Shekhadi",
+    "d2dCGPA": "",
+    "parentMobile": "9925625085",
+    "remarks": "",
+    "dateTime": "2026-03-31T09:00:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-03-31T09:00:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "WsgYTTWYnrY9hNiQ9JKC",
+    "studentType": "12th",
+    "ddcetScore": "",
+    "board": "CBSE",
+    "email": "bhavesh_soni3@hotmail.com",
+    "charusatFormFilled": "No",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "state": "Gujarat",
+    "studentMobile": "9227418734",
+    "pcmPR": "",
+    "diplomaUniversity": "",
+    "city": "Anand",
+    "d2dCGPA": "",
+    "district": "Anand",
+    "studentName": "Kavisha bhaveshkumar soni",
+    "branchPreference": [
+      "CSE"
+    ],
+    "parentMobile": "9727795734",
+    "remarks": "Will fill admission form",
+    "dateTime": "2026-03-31T06:24:00.000Z",
+    "createdAt": "2026-03-31T06:24:00.000Z",
+    "gujcetPR": ""
+  },
+  {
+    "id": "zEOKacLREqswJwCWbONB",
+    "studentName": "Maitri Maheshbhai kavaiya",
+    "district": "Kheda",
+    "d2dCGPA": "",
+    "city": "Nadiad",
+    "gujcetPR": "",
+    "createdAt": "2026-03-30T05:19:00.000Z",
+    "parentMobile": "7600107255",
+    "remarks": "Mq form will be filled out",
+    "dateTime": "2026-03-30T05:19:00.000Z",
+    "branchPreference": [
+      "CE"
+    ],
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "No",
+    "email": "shrutikavaiya@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "pcmPR": "",
+    "studentMobile": "9601884594",
+    "state": "Gujarat"
+  },
+  {
+    "id": "egKnGI6twURd3fIU1ZkJ",
+    "admissionType": [
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "email": "idealclasschirag@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "diplomaUniversity": "",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9376218195",
+    "district": "Vadodara",
+    "studentName": "Nitya chirag shah",
+    "city": "Baroda",
+    "d2dCGPA": "",
+    "remarks": "D2D admission inquiry",
+    "dateTime": "2026-03-27T09:55:00.000Z",
+    "parentMobile": "9376218195",
+    "gujcetPR": "",
+    "createdAt": "2026-03-27T09:55:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ]
+  },
+  {
+    "id": "i9xWpBb8YvxVxdLGA1P5",
+    "counsellorName": "Prof. Prashant Jadav",
+    "admissionType": [
+      "Management Quota"
+    ],
+    "email": "rahuljadav1701@gmail.com",
+    "board": "ICSE",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "diplomaUniversity": "",
+    "studentMobile": "9913771530",
+    "pcmPR": "80",
+    "state": "Gujarat",
+    "studentName": "Rahul Himanshubhai Jadav",
+    "district": "Kheda",
+    "d2dCGPA": "",
+    "city": "Pansora",
+    "createdAt": "2026-03-23T05:39:00.000Z",
+    "gujcetPR": "40",
+    "parentMobile": "9328438872",
+    "dateTime": "2026-03-23T05:39:00.000Z",
+    "remarks": "MTech computer engineering inquiry",
+    "branchPreference": [
+      "CE"
+    ]
+  },
+  {
+    "id": "LgsgHKAHR8VXgSNs56lD",
+    "city": "Khakhwada ",
+    "d2dCGPA": "",
+    "district": "Navsari",
+    "studentName": "Nirva Milan Naik",
+    "branchPreference": [
+      "CE"
+    ],
+    "parentMobile": "9825035459",
+    "remarks": "",
+    "dateTime": "2026-03-17T08:45:00.000Z",
+    "createdAt": "2026-03-17T08:45:00.000Z",
+    "gujcetPR": "",
+    "studentType": "12th",
+    "email": "milandharti@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "counsellorName": "Prof. Jay Patel",
+    "admissionType": [
+      "ACPC",
+      "Management Quota",
+      "NRI"
+    ],
+    "state": "Gujarat",
+    "studentMobile": "9274535459",
+    "pcmPR": "",
+    "diplomaUniversity": ""
+  },
+  {
+    "id": "JdmIJiLEgPKPOlLVGcP8",
+    "gujcetPR": "90",
+    "createdAt": "2026-03-17T08:29:00.000Z",
+    "parentMobile": "9586863027",
+    "remarks": "Form will be filled once out ",
+    "dateTime": "2026-03-17T08:29:00.000Z",
+    "branchPreference": [
+      "CSE"
+    ],
+    "studentName": "Jeel sanjay patel",
+    "district": "Sabarkantha",
+    "d2dCGPA": "",
+    "city": "Himatnagar",
+    "diplomaUniversity": "",
+    "pcmPR": "75",
+    "studentMobile": "9586863027",
+    "state": "Gujarat",
+    "admissionType": [
+      "NRI",
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Mr. Anil Kalyani",
+    "charusatFormFilled": "No",
+    "email": "patelsanjay2976@gmail.com",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "studentType": "12th"
+  },
+  {
+    "id": "EmvvqPXNGBmz6dah2oGs",
+    "studentType": "12th",
+    "charusatFormFilled": "No",
+    "board": "GSEB",
+    "ddcetScore": "",
+    "email": "pankajmpatel.1974@gmail.com",
+    "admissionType": [
+      "Management Quota",
+      "ACPC"
+    ],
+    "counsellorName": "Dr. Premal Patel",
+    "state": "Gujarat",
+    "pcmPR": "",
+    "studentMobile": "9428061900",
+    "diplomaUniversity": "",
+    "city": "HIMATNAGAR ",
+    "d2dCGPA": "",
+    "district": "Sabarkantha",
+    "studentName": "NEEL PATEL",
+    "branchPreference": [
+      "CE"
+    ],
+    "parentMobile": "9825022235",
+    "remarks": "Interested in Artificial intelligence ",
+    "dateTime": "2026-03-17T08:24:00.000Z",
+    "gujcetPR": "",
+    "createdAt": "2026-03-17T08:24:00.000Z"
+  },
+  {
+    "id": "o2zt5XA5pif4VJaKHlDT",
+    "studentMobile": "9414497566",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "email": "nitinregal7566@gmail.com",
+    "board": "Rajasthan ",
+    "ddcetScore": "",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "Mr. Anil Kalyani",
+    "admissionType": [
+      "NRI"
+    ],
+    "branchPreference": [
+      "IT"
+    ],
+    "createdAt": "2026-03-16T09:59:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-03-16T09:59:00.000Z",
+    "remarks": "Form will be filled once out, she is from Rajasthan no gujcet",
+    "parentMobile": "9414497566",
+    "d2dCGPA": "",
+    "city": "Anand",
+    "studentName": "Jisha shah ",
+    "district": "Anand"
+  },
+  {
+    "id": "JoymcavNP9kpijSI0ggk",
+    "email": "maharshipatel556@gmail.com",
+    "ddcetScore": "",
+    "board": "GSEB",
+    "charusatFormFilled": "No",
+    "studentType": "12th",
+    "counsellorName": "",
+    "admissionType": [
+      "ACPC",
+      "Management Quota"
+    ],
+    "studentMobile": "7862922206",
+    "pcmPR": "",
+    "state": "Gujarat",
+    "diplomaUniversity": "",
+    "d2dCGPA": "",
+    "city": "Rajpipla ",
+    "studentName": "PATEL MAHARSHI SANJAYBHAI",
+    "district": "Narmada",
+    "branchPreference": [
+      "IT"
+    ],
+    "createdAt": "2026-03-13T04:54:00.000Z",
+    "gujcetPR": "",
+    "dateTime": "2026-03-13T04:54:00.000Z",
+    "remarks": "",
+    "parentMobile": "8160493411"
+  }
+]

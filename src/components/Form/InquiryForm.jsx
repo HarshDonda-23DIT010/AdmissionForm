@@ -203,6 +203,17 @@ const InquiryForm = () => {
       const result = await saveInquiry(dataToSave);
       console.log('Inquiry saved successfully:', result);
 
+      try {
+        await fetch('/api/backup', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(result)
+        });
+        console.log('JSON backup updated');
+      } catch (err) {
+        console.error('Failed to update JSON backup:', err);
+      }
+
       setSubmitStatus({ type: 'success', message: 'Inquiry submitted successfully!' });
 
       setFormData({
