@@ -66,7 +66,8 @@ const InquiryForm = () => {
     'Prof. Nirav Narayan',
     'Prof. Vaibhav Matalia',
     'Prof. Siddharth Shah',
-    'Prof. Prashant Jadav'
+    'Prof. Prashant Jadav',
+    'Prof. Vidhi Parikh'
   ];
 
   const [errors, setErrors] = useState({});
@@ -463,11 +464,10 @@ const InquiryForm = () => {
             {['12th', 'D2D'].map(type => (
               <label
                 key={type}
-                className={`flex items-center gap-2 px-5 py-2.5 rounded-lg cursor-pointer border-2 transition-all ${
-                  formData.studentType === type
+                className={`flex items-center gap-2 px-5 py-2.5 rounded-lg cursor-pointer border-2 transition-all ${formData.studentType === type
                     ? 'border-blue-500 bg-blue-50 text-blue-700'
                     : 'border-gray-200 bg-gray-50 text-gray-600 hover:border-gray-300'
-                }`}
+                  }`}
               >
                 <input
                   type="radio"
